@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>La Teoría del Internet Muerto: Sesgo Algorítmico y la Deshumanización de los Datos</title>
+  <title>La teoría del Internet Muerto, sesgo algorítmico y la deshumanización de los datos</title>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
   <style>
     :root {
@@ -31,7 +31,6 @@
       min-height: 100vh;
     }
 
-    /* ── HEADER / MASTHEAD ───────────────────────────────────── */
     .masthead {
       border-bottom: 1px solid var(--rule);
       padding: 1.4rem 0;
@@ -65,7 +64,6 @@
       text-align: right;
     }
 
-    /* ── LAYOUT ──────────────────────────────────────────────── */
     .container {
       max-width: 860px;
       margin: 0 auto;
@@ -75,7 +73,6 @@
     section { padding: 2.8rem 0; }
     section + section { border-top: 1px solid var(--rule); }
 
-    /* ── ARTICLE HEADER ──────────────────────────────────────── */
     .article-header { padding-top: 4rem; padding-bottom: 3rem; }
 
     .article-type {
@@ -114,7 +111,6 @@
       max-width: 660px;
     }
 
-    /* ── AUTHORS ─────────────────────────────────────────────── */
     .authors-block { margin-bottom: 2rem; }
 
     .authors-label {
@@ -151,7 +147,6 @@
       margin-left: 1px;
     }
 
-    /* affiliations */
     .affiliations {
       margin-top: 1rem;
       font-size: 0.82rem;
@@ -166,7 +161,6 @@
       font-size: 0.72em;
     }
 
-    /* ── META BADGES ─────────────────────────────────────────── */
     .meta-row {
       display: flex;
       flex-wrap: wrap;
@@ -190,7 +184,6 @@
       font-size: 0.78rem;
     }
 
-    /* ── SECTION HEADINGS ────────────────────────────────────── */
     .section-label {
       font-family: var(--mono);
       font-size: 0.62rem;
@@ -216,7 +209,6 @@
       color: var(--ink);
     }
 
-    /* ── ABSTRACT ────────────────────────────────────────────── */
     .abstract-box {
       background: rgba(139, 28, 28, 0.04);
       border-left: 2px solid var(--accent);
@@ -230,7 +222,6 @@
       hyphens: auto;
     }
 
-    /* ── KEYWORDS ────────────────────────────────────────────── */
     .keywords {
       display: flex;
       flex-wrap: wrap;
@@ -250,7 +241,6 @@
     }
     .keyword:hover { border-color: var(--accent-dim); color: var(--accent); }
 
-    /* ── BODY TEXT ───────────────────────────────────────────── */
     .body-text p {
       text-align: justify;
       hyphens: auto;
@@ -266,29 +256,9 @@
       margin-bottom: 0.4rem;
     }
 
-    /* ── FIGURES ─────────────────────────────────────────────── */
     figure {
       margin: 2rem 0;
       text-align: center;
-    }
-    .fig-placeholder {
-      width: 100%;
-      height: 220px;
-      background: repeating-linear-gradient(
-        45deg,
-        var(--rule) 0px,
-        var(--rule) 1px,
-        transparent 1px,
-        transparent 10px
-      );
-      border: 1px solid var(--rule);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--ink-faint);
-      font-family: var(--mono);
-      font-size: 0.72rem;
-      letter-spacing: 0.1em;
     }
     figcaption {
       font-size: 0.82rem;
@@ -305,7 +275,6 @@
       color: var(--ink-light);
     }
 
-    /* ── TABLE ───────────────────────────────────────────────── */
     .table-wrapper { overflow-x: auto; margin: 1.5rem 0; }
     table {
       width: 100%;
@@ -333,7 +302,6 @@
       margin-top: 0.5rem;
     }
 
-    /* ── REFERENCES ──────────────────────────────────────────── */
     .references-list {
       list-style: none;
       counter-reset: none;
@@ -354,7 +322,6 @@
     }
     .references-list li a:hover { text-decoration: underline; }
 
-    /* ── CORRESPONDENCE ──────────────────────────────────────── */
     .correspondence {
       background: transparent;
       border: 1px solid var(--rule);
@@ -373,7 +340,6 @@
       margin-bottom: 0.4rem;
     }
 
-    /* ── CONFLICT / FUNDING ──────────────────────────────────── */
     .disclosure p {
       font-size: 0.85rem;
       color: var(--ink-faint);
@@ -387,7 +353,6 @@
       text-transform: uppercase;
     }
 
-    /* ── FOOTER ──────────────────────────────────────────────── */
     footer {
       border-top: 1px solid var(--rule);
       padding: 2rem 0 3rem;
@@ -400,7 +365,6 @@
     }
     footer a { color: inherit; text-decoration: none; }
 
-    /* ── ANIMATIONS ──────────────────────────────────────────── */
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(14px); }
       to   { opacity: 1; transform: translateY(0); }
@@ -415,7 +379,6 @@
     .article-header > *:nth-child(4) { animation-delay: 0.35s; }
     .article-header > *:nth-child(5) { animation-delay: 0.45s; }
 
-    /* ── RESPONSIVE ──────────────────────────────────────────── */
     @media (max-width: 600px) {
       body { font-size: 16px; }
       .container { padding: 0 1.2rem; }
@@ -442,19 +405,19 @@
 
     <div class="article-type">Artículo de Investigación Original</div>
 
-    <h1>La Teoría del Internet Muerto: Sesgo Algorítmico y la Deshumanización de los Datos</h1>
+    <h1>La teoría del Internet Muerto, sesgo algorítmico y la deshumanización de los datos</h1>
 
-    <p class="subtitle">Análisis crítico de cómo la sustitución de la agencia humana por bucles sintéticos degrada la calidad de la información, amplificando sesgos estructurales y contaminando la visualización del conocimiento en la sociedad digital contemporánea.</p>
+    <p class="subtitle">Análisis crítico de cómo el bucle de la inteligencia artificial y la saturación de contenido sintético operan como destructores del conocimiento, invisibilizando la subjetividad humana mediante el ruido y el engaño visual.</p>
 
     <!-- AUTHORS -->
     <div class="authors-block">
       <p class="authors-label">Autoría</p>
       <ul class="authors-list">
-        <li><a href="#1">Angelina Caviedes</a><span class="author-sup">1</span></li>
-        <li><a href="#2">Millaray Dinamarca</a><span class="author-sup">2</span></li>
-        <li><a href="#3">Antonia Mardones</a><span class="author-sup">3</span></li>
-        <li><a href="#4">María José Quinteros</a><span class="author-sup">4</span></li>
-        <li><a href="#5">Antonia Solar</a><span class="author-sup">5</span></li>
+        <li><a href="#1">Fernanda Valenzuela</a><span class="author-sup">1</span></li>
+        <li><a href="#2">Martina Casas</a><span class="author-sup">2</span></li>
+        <li><a href="#3">Marthin Rivera</a><span class="author-sup">3</span></li>
+        <li><a href="#4">Gonzalo Monsalves</a><span class="author-sup">4</span></li>
+        <li><a href="#5">Violeta Santander</a><span class="author-sup">5</span></li>
       </ul>
       <div class="affiliations">
         <p><span class="aff-num">1</span>Estudiante de diseño con Mención V y M - FAU Universidad de Chile — Santiago, Chile</p>
@@ -479,8 +442,8 @@
   <section id="resumen">
     <p class="section-label">Resumen</p>
     <div class="abstract-box">
-      <p><strong>Introducción:</strong> La teoría del Internet muerto afirma que la red ha sido colonizada por bots e Inteligencia Artificial generativa. Esto desplaza la interacción humana a un bucle autorreferencial de contenido sintético. A partir de esto, se analiza de manera crítica, abordando el colapso de la autenticidad digital y la saturación informacional actual.</p>
-      <p style="margin-top:0.9rem;"><strong>Objetivo:</strong> Evaluar las implicaciones teóricas, epistémicas y visuales de la "muerte" del contenido humano en la red. Para ello, se examina el colapso del procesamiento de información, la amplificación de sesgos algorítmicos y la degradación gráfica mediante la articulación de marcos teóricos contemporáneos sobre la inteligencia artificial y la visualización de datos.</p>
+      <p><strong>Introducción:</strong> La teoría del internet muerto afirma que la red ha sido colonizada por bots e Inteligencia Artificial generativa. Esto desplaza la interacción humana a un bucle autorreferencial de contenido sintético. A partir de esto, se analiza de manera crítica, abordando el colapso de la autenticidad digital y la saturación informacional actual.</p>
+      <p style="margin-top:0.9rem;"><strong>Objetivo:</strong> Evaluar las implicaciones teóricas, epistémicas y visuales de la "muerte" del contenido humano en la red. Para esto, se examinará el colapso del procesamiento de información, la amplificación de sesgos algorítmicos y la degradación gráfica mediante la articulación de marcos teóricos contemporáneos sobre la inteligencia artificial y la visualización de datos.</p>
       <p style="margin-top:0.9rem;"><strong>Métodos:</strong> Se aplicó una revisión cualitativa centrada en el análisis bibliográfico de cinco fuentes fundamentalmente. El enfoque abordó la jerarquía de la información, el sesgo algorítmico, la alfabetización gráfica y el Data Humanism para mapear conceptualmente la sustitución de interacciones humanas por dinámicas automatizadas.</p>
       <p style="margin-top:0.9rem;"><strong>Resultados:</strong> Se identificó un ciclo de degradación digital estructurado en tres dimensiones: el colapso del modelo DIKW por ingesta sintética, la endogamia algorítmica expuesta por Yorlano, y la proliferación de ruido visual (chartjunk). De esta forma, los datos muestran una pérdida progresiva de agencia humana frente a la automatización masiva.</p>
       <p style="margin-top:0.9rem;"><strong>Conclusión:</strong> Revivir el entorno digital requiere sobrepasar la mera regulación técnica. Se necesita la adopción del Data Humanism para rescatar la subjetividad, la alfabetización crítica frente al engaño visual, y una supervisión ética estricta que garantice que la tecnología permanezca subordinada al juicio y a la experiencia humana.</p>
@@ -503,11 +466,11 @@
   <section id="introduccion">
     <p class="section-label">1 · Introducción</p>
     <div class="body-text">
-      <p>Cuando hablamos de la teoría del Internet muerto (Dead Internet Theory), no nos referimos a la muerte técnica de este, sino que, como indica Yorlano (2025): <q>La Teoría del Internet Muerto postula que gran parte del contenido en línea ya no es creado por humanos, sino por sistemas automatizados (bots) e inteligencia artificial (IA)</q> (p. 2). De esta manera, se nos da una ilusión de que hay vida real detrás de muchos contenidos de internet, a pesar de que cada vez estos espacios se convierten en zonas donde la IA y bots generan datos sintéticos, borrando cada vez más la huella humana en estos medios.</p>
+      <p>Cuando hablamos de la teoría del internet muerto (Dead Internet Theory), no nos referimos a la muerte técnica de este, sino, que como indica Yorlano (2025) "La Teoría del Internet Muerto postula que gran parte del contenido en línea ya no es creado por humanos, sino por sistemas automatizados (bots) e inteligencia artificial (IA)" (p. 2). De esta manera, se nos da una ilusión de que hay vida real detrás de muchos contenidos de internet, a pesar de que cada vez estos espacios se convierten en zonas donde la IA y bots generan datos sintéticos, borrando cada vez más la huella humana en estos medios.</p>
 
-      <p>Esta transformación tecnológica que estamos viviendo actualmente no representa solamente un cambio en la escala de la producción de contenidos, sino que también es un quiebre en la ecología del conocimiento. El aumento de modelos de lenguajes masivos y de granjas de interacción automatizadas han creado un ecosistema en donde la velocidad de generación de contenido sintético supera la capacidad humana de consumo y verificación. De esta manera, la IA y los bots interactúan entre sí, simulando dinámicas sociales que carecen de intencionalidad, afecto o juicio crítico.</p>
+      <p>Esta transformación tecnológica que estamos viviendo actualmente, no representa solamente un cambio en la escala de la producción de contenidos, sino que también es un quiebre en la ecología del conocimiento. El aumento de modelos de lenguajes masivos y de granjas de interacción automatizadas, han creado un ecosistema en donde la velocidad de generación de contenido sintético, supera la capacidad humana de consumo y verificación. De esta manera, la IA y los bots interactúan entre sí, simulando dinámicas sociales que carecen de intencionalidad, afecto o juicio crítico.</p>
 
-      <p>Esta transformación no es meramente cuantitativa, sino también cualitativa. La saturación del espacio digital con contenido fabricado por máquinas produce una ilusión de conectividad que enmascara un entorno de enajenación, donde los datos pierden su anclaje en la realidad. El propósito de este trabajo es visibilizar cómo la sustitución de la agencia humana por bucles sintéticos degrada la calidad de la información, amplificando sesgos estructurales y contaminando la visualización del conocimiento en la sociedad digital contemporánea.</p>
+      <p>Por estas razones, se considera urgente investigar sobre este fenómeno en donde la ilusión de conectividad enmascara un entorno de enajenación, que hacen que los datos pierdan su anclaje en la realidad. El propósito de este trabajo es visibilizar cómo la sustitución de la agencia humana por bucles sintéticos degrada la calidad de la información, amplificando sesgos estructurales y contaminando la visualización del conocimiento en la sociedad digital contemporánea.</p>
 
       <p>Para abordar este fenómeno, el artículo se estructura en cinco secciones. Primero, se presenta el marco teórico, que articula el modelo DIKW, el concepto de endogamia algorítmica de Yorlano, la crítica al chartjunk de Tufte y Cairo, y el Data Humanism de Lupi y Cox. Luego, se describen los métodos cualitativos empleados para el análisis. Posteriormente, se exponen los resultados, que incluyen una tabla comparativa y una visualización de datos. Finalmente, se discuten las implicaciones de estos hallazgos y se proponen líneas de acción para contrarrestar la deriva deshumanizante del ecosistema digital.</p>
     </div>
@@ -517,9 +480,9 @@
   <section id="marco-teorico">
     <p class="section-label">2 · Marco Teórico</p>
 
-    <h2>2.1 El modelo DIKW y la fractura del conocimiento</h2>
+    <h2>2.1 La fractura epistemológica: El modelo DIKW frente a la automatización</h2>
     <div class="body-text">
-      <p>El análisis de la sustitución del contenido humano por el sintético en la red implica la revisión de las bases epistemológicas de la información. El modelo tradicional DIKW (Datos, Información, Conocimiento, Sabiduría) asumía una jerarquía lineal donde la experiencia humana transformaba estímulos dispares en saberes profundos. Sin embargo, Peters, Jandrić y Green (2024) argumentan que la irrupción de la IA generativa fractura esta transición. La capacidad de los sistemas autónomos para procesar volúmenes masivos de datos y generar síntesis complejas simula el "conocimiento", eliminando la necesidad de mediación humana. Al saturar la red con información sintética que no ha sido destilada por el juicio ni la vivencia, el ciclo DIKW colapsa: los datos ya no conducen a la sabiduría, sino a una sobreproducción de enunciados sin sujeto.</p>
+      <p>El análisis de la sustitución del contenido humano por el sintético en la red, implica la revisión de las bases epistemológicas de la información. El modelo tradicional DIKW (Datos, Información, Conocimiento, Sabiduría) asumía una jerarquía lineal donde la experiencia humana transformaba estímulos dispares en saberes profundos. Sin embargo, Peters, Jandrić y Green (2024) argumentan que la irrupción de la IA generativa, fractura esta transición. La capacidad de procesar volúmenes masivos de datos y generar síntesis complejas simulando el "conocimiento", eliminando de esta manera la necesidad de mediación humana. Al ser la red saturada con información sintética, el ciclo DIKW colapsa, los datos ya no conducen a la sabiduría, sino a la sobreproducción de enunciados sin sujeto.</p>
 
       <blockquote>
         <p>"La automatización de la síntesis del conocimiento altera el modelo DIKW, creando una simulación de saber desconectada de la agencia humana."</p>
@@ -527,39 +490,31 @@
       </blockquote>
     </div>
 
-    <h2>2.2 Endogamia algorítmica y círculo vicioso de la IA</h2>
+    <h2>2.2 Endogamia algorítmica: El círculo vicioso de la IA y la naturalización de sesgos</h2>
     <div class="body-text">
-      <p>Esta desconexión se agrava a través de la dinámica técnica expuesta por Yorlano (2025), quien conceptualiza el "círculo vicioso" de la IA generativa. Cuando los modelos de aprendizaje automático son entrenados de manera masiva con datos extraídos de la web —la cual está crecientemente infestada por contenidos producidos por otras IA— se desencadena un proceso de endogamia algorítmica. Los sesgos históricos, alucinaciones y estereotipos presentes en el material original no solo se reproducen, sino que se magnifican. Este bucle autorreferencial naturaliza discriminaciones en la toma de decisiones cotidianas e institucionales, aislando progresivamente al usuario humano de fuentes verdaderamente diversas y orgánicas.</p>
+      <p>Esta desconexión se agrava a través de la dinámica técnica expuesta por Yorlano (2025), quien conceptualiza el "círculo vicioso" de la IA generativa. Cuando se entrenan a los modelos de aprendizaje de manera masiva, con datos extraídos de la web, la cual está infestada por contenidos producidos por otras IA, se desencadena un proceso de endogamia algorítmica. Este bucle autorreferencial naturaliza discriminaciones en la toma de decisiones, aislando progresivamente al usuario humano de fuentes verdaderamente diversas y orgánicas.</p>
     </div>
 
-    <h2>2.3 Chartjunk y la retórica del engaño visual</h2>
+    <h2>2.3 Desinformación gráfica y la reivindicación del Data Humanism</h2>
     <div class="body-text">
-      <p>En el plano visual, la crisis del Internet muerto se manifiesta en la proliferación de chartjunk y desinformación gráfica. Tufte (2020) acuñó este término para referirse a elementos decorativos innecesarios que oscurecen la comprensión de los datos. Sin embargo, en el contexto actual, el chartjunk adquiere una dimensión más siniestra: la automatización genera cuadros de mando y gráficos carentes de contexto que explotan los sesgos cognitivos expuestos por Cairo (2020), sacrificando la verdad por el efectismo técnico. Estas visualizaciones, producidas a escala industrial por IA, no solo son estéticamente pobres, sino que también distorsionan la percepción pública al presentar correlaciones falsas o escalas manipuladas como si fueran evidencia objetiva.</p>
-    </div>
-
-    <h2>2.4 Data Humanism: la alternativa ética</h2>
-    <div class="body-text">
-      <p>Frente a esta deriva, Lupi y Cox (2024) proponen el Data Humanism como un enfoque que recupera la subjetividad, la emoción y la narrativa personal en la representación de datos. Este movimiento critica la frialdad de la estadística tradicional y aboga por visualizaciones que cuenten historias, que incluyan el contexto y que reconozcan la parcialidad de todo conocimiento. El Data Humanism no es solo una estética, sino una postura ética que se opone a la deshumanización de los datos y que ofrece un camino para revitalizar el espacio digital, devolviendo la agencia a los usuarios y reconociendo la diversidad de experiencias humanas.</p>
+      <p>Por otra parte, la degradación de la red posee una dimensión estética e informativa crucial. La sobreabundancia de datos en el Internet Muerto, genera lo que Tufte (2020) denomina como "ruido visual" o chartjunk: adornos, distorsiones y redundancias sintéticas que ocultan la evidencia verdadera. Esta saturación de gráfica es aprovechada por dinámicas de desinformación visual que Cairo (2020) analiza como mecanismos de engaño masivo. Gráficos automatizados, escalas manipuladas y correlaciones falsas explotan la baja alfabetización gráfica del público, provocando que se proyecte una objetividad científica engañosa sobre datos que carecen de rigor. Frente a esto, la filosofía del Data Humanism propuesta por Lupi y Cox (2024), surge como un contrapeso esencial al reivindicar el dato no como una métrica fría o masiva, sino como un artefacto cultural, humano y subjetivo que debe reanimar la conectividad digital.</p>
     </div>
   </section>
 
   <!-- ── MÉTODOS ─────────────────────────────────────────────── -->
   <section id="metodos">
     <p class="section-label">3 · Métodos</p>
-    <div class="body-text">
-      <p>La metodología empleada se inscribe en un enfoque cualitativo de revisión bibliográfica y análisis crítico de visualizaciones. El objetivo es mapear conceptualmente la sustitución de interacciones humanas por dinámicas automatizadas, articulando los marcos teóricos del modelo DIKW, la endogamia algorítmica, la alfabetización gráfica y el Data Humanism.</p>
 
-      <p>El proceso se estructuró en tres fases analíticas:</p>
+    <div class="body-text">
+      <p>Para abordar esta investigación, se aplica una revisión cualitativa centrada en el análisis bibliográfico, tratando la sustitución de interacciones humanas por dinámicas automatizadas como un proceso de transformación socio-cognitiva. El procedimiento analítico se divide en tres fases para evaluar las implicaciones teóricas, epistémicas y visuales de la "muerte" del contenido humano:</p>
 
       <ol>
-        <li><strong>Revisión sistemática de la literatura:</strong> Se realizó una búsqueda en bases de datos académicas (Google Scholar, Scopus) utilizando combinaciones de palabras clave como <em>"Dead Internet Theory"</em>, <em>"algorithmic bias"</em>, <em>"synthetic data"</em>, <em>"visual misinformation"</em> y <em>"DIKW model"</em>. Se priorizaron fuentes publicadas entre 2020 y 2026, con especial atención a los textos de Peters et al. (2024), Yorlano (2025), Cairo (2020), Tufte (2020) y Lupi & Cox (2024).</li>
+        <li><strong>Caracterización Teórica del Colapso DIKW:</strong> Se evalúa exhaustivamente la jerarquía de la información ante la ingesta masiva de datos sintéticos. Bajo esta premisa, y siguiendo a Peters et al. (2024), se reconoce que la IA generativa fractura la transición lineal entre datos y sabiduría, simulando un conocimiento que elimina la necesidad de mediación humana. Al analizar este quiebre epistemológico, se revela cómo la sobreproducción automatizada actúa como el primer eslabón en la cadena de enajenación digital, colapsando el ciclo informativo en enunciados sin sujeto.</li>
 
-        <li><strong>Análisis crítico de visualizaciones:</strong> Se examinaron ejemplos de gráficos y cuadros de mando generados por IA y bots, identificando patrones de chartjunk, manipulación de escalas y omisión de contexto. Este análisis se guió por los principios de la retórica visual propuestos por Cairo (2020) y Tufte (2020), y se complementó con una reflexión crítica desde el Data Humanism (Lupi & Cox, 2024).</li>
+        <li><strong>Análisis de la Retórica Visual:</strong> Siguiendo a Yorlano (2025), se examina la mecánica de reproducción de sesgos algorítmicos mediante el concepto de "círculo vicioso". Se analiza cómo los modelos de IA, al ser entrenados masivamente con contenidos sintéticos de la web, desencadenan un bucle autorreferencial. Se identifica y cuestiona cómo esta dinámica naturaliza discriminaciones en la toma de decisiones, aislando progresivamente al usuario de fuentes verdaderamente diversas y orgánicas.</li>
 
-        <li><strong>Diseño de visualización alternativa:</strong> Se desarrolló una gráfica que contrasta la evolución del contenido humano frente al sintético en plataformas digitales, utilizando datos sintéticos inspirados en informes del Stanford Internet Observatory. Esta visualización se implementó con la API Canvas de HTML5 y se incluye en la sección de Resultados como un ejercicio de representación ética y transparente.</li>
+        <li><strong>Aplicación de la Lente Crítica del Data Humanism:</strong> En esta etapa final, se tensionan las patologías visuales del contenido automatizado frente a la experiencia humana. Apoyándose en Cairo (2020) y Tufte (2020), se analiza cómo el ruido visual (chartjunk) y las escalas manipuladas operan como mecanismos de engaño masivo para proyectar una objetividad científica engañosa sobre datos carentes de rigor. Frente a esta degradación de la alfabetización gráfica, se aplica la filosofía del Data Humanism (Lupi & Cox, 2024) para reivindicar el dato como un artefacto cultural y subjetivo, cuestionando activamente la validez de las métricas impuestas por la automatización.</li>
       </ol>
-
-      <p>El enfoque metodológico permitió generar un contraste con la literatura crítica sobre la IA y los marcos conceptuales de la alfabetización visual contemporánea, ofreciendo una base sólida para la discusión de los resultados.</p>
     </div>
   </section>
 
@@ -623,28 +578,28 @@
   <section id="conclusion">
     <p class="section-label">5 · Conclusiones</p>
     <div class="body-text">
-  <p>La Teoría del Internet Muerto no debe interpretarse como una distopía fantástica, sino como una advertencia crítica sobre la deriva del ecosistema digital. La sustitución sistemática de la interacción humana por sistemas de inteligencia artificial generativa y bots ha fracturado la producción de conocimiento genuino. Como se ha demostrado mediante el marco de Peters et al. (2024), la automatización de la síntesis desarticula la jerarquía DIKW, transformando a la red en una infraestructura saturada de información simulada que carece de sabiduría, intencionalidad y contexto vivencial.</p>
+      <p>La teoría del Internet Muerto no se debe interpretar como una distopía fantástica, sino como una advertencia sobre el ecosistema digital que existe hoy en día. La sustitución sistemática de la interacción humana por sistemas de inteligencia artificial generativa y bots, ha fracturado la producción de conocimiento genuino. Como se ha demostrado por medio del marco de Peters et al. (2024), la automatización de la síntesis desarticula la jerarquía DIKW, transformando a la red en una infraestructura saturada de información sintética que carece de sabiduría, intencionalidad y contexto vivencial.</p>
 
-  <p>Esta degradación se perpetúa a través de los mecanismos de retroalimentación algorítmica analizados por Yorlano (2025). La ingesta incesante de datos sintéticos por parte de las propias inteligencias artificiales consolida un círculo vicioso de sesgos y automatización que margina de forma progresiva la agencia reflexiva del usuario. Paralelamente, la crisis se manifiesta en el ámbito gráfico: el triunfo del chartjunk (Tufte, 2020) y las estrategias de desinformación visual (Cairo, 2020) erosionan la alfabetización crítica, sustituyendo la evidencia transparente por ornamentos opacos y métricas manipuladas.</p>
+      <p>Este suceso se prolonga a través de los mecanismos de retroalimentación algorítmica analizados por Yorlano (2025). La inyección constante de datos sintéticos por parte de las propias inteligencias artificiales, consolida un círculo vicioso de sesgos y automatización que margina de manera progresiva la agencia reflexiva del usuario. Paralelamente, la crisis se manifiesta en el ámbito gráfico, con el triunfo del chartjunk (Tufte, 2020), y las estrategias de desinformación visual (Cairo, 2020), que erosionan la alfabetización crítica, sustituyendo la evidencia transparente por ornamentos opacos y métricas manipuladas.</p>
 
-  <p>Este análisis dialoga directamente con las propuestas de Donna Haraway (1988) sobre el <em>conocimiento situado</em>, al recordarnos que los datos nunca son neutrales y que la aparente "muerte" de Internet es, en realidad, una disputa por la autoridad epistémica en la era digital. De manera similar, los principios del <em>Data Feminism</em> (D'Ignazio & Klein, 2020) nos invitan a preguntarnos: ¿quién se beneficia de esta saturación sintética? ¿Qué voces son silenciadas por el ruido algorítmico? Responder estas preguntas es el primer paso para reclamar un Internet vivo, diverso y éticamente gobernado.</p>
+      <p>Este análisis dialoga directamente con las propuestas de Donna Haraway (1988) sobre el <em>conocimiento situado</em>, al recordarnos que los datos nunca son neutrales y que la aparente "muerte" de Internet es, en realidad, una disputa por la autoridad epistémica en la era digital. De manera similar, los principios del <em>Data Feminism</em> (D'Ignazio & Klein, 2020) nos invitan a preguntarnos: ¿quién se beneficia de esta saturación sintética? ¿Qué voces son silenciadas por el ruido algorítmico? Responder estas preguntas es el primer paso para reclamar un Internet vivo, diverso y éticamente gobernado.</p>
 
-  <p>Reanimar el entorno digital no implica desmantelar la tecnología, sino reestructurar éticamente su relación con la sociedad. Se requiere una supervisión humana estricta y marcos regulatorios sobre la IA (Yorlano, 2025), acompañados de una alfabetización visual que desenmascare el engaño gráfico (Cairo, 2020). Principalmente, es indispensable adoptar la perspectiva del <em>Data Humanism</em> (Lupi & Cox, 2024) para recuperar el valor de la subjetividad, la emoción y la historia personal en los datos, garantizando que Internet vuelva a ser un espacio vivo al servicio del pensamiento crítico de las personas.</p>
-</div>
+      <p>Revivir el entorno digital no implica desmantelar la tecnología, sino reestructurar éticamente su relación con la sociedad. Se necesita una supervisión humana estricta, y marcos regulatorios sobre la IA (Yorlano, 2025), acompañados de una alfabetización visual que desenmascare el engaño gráfico (Cairo, 2020). Principalmente, es indispensable adoptar la perspectiva del <em>Data Humanism</em> (Lupi & Cox, 2024) para recuperar el valor de la subjetividad, la emoción y la historia personal de los datos, garantizando de esta manera que el internet vuelva a ser un espacio vivo al servicio del pensamiento crítico de las personas.</p>
+    </div>
   </section>
 
   <!-- ── REFERENCIAS ─────────────────────────────────────────── -->
   <section id="referencias">
     <p class="section-label">Referencias Bibliográficas</p>
     <ul class="references-list">
-  <li>Cairo, A. (2020). <em>How charts lie: Getting smarter about visual information</em>. W. W. Norton & Company.</li>
-  <li>D'Ignazio, C., & Klein, L. F. (2020). <em>Data feminism</em>. The MIT Press.</li>
-  <li>Haraway, D. (1988). Situated knowledges: The science question in feminism and the privilege of partial perspective. <em>Feminist Studies, 14</em>(3), 575–599.</li>
-  <li>Lupi, G., & Cox, P. (2024). <em>Speak data: Artists, scientists, thinkers, and dreamers on how we live our lives in numbers</em>. Princeton Architectural Press.</li>
-  <li>Peters, M. A., Jandrić, P., & Green, B. J. (2024). The DIKW model in the age of artificial intelligence. <em>Educational Philosophy and Theory, 56</em>(4), 321–335. https://doi.org/10.1080/00131857.2024.2304578</li>
-  <li>Tufte, E. R. (2020). <em>Seeing with fresh eyes: Meaning, space, data, truth</em>. Graphics Press.</li>
-  <li>Yorlano, E. F. (2025). El círculo vicioso de la inteligencia artificial generativa. <em>Revista Pensamiento Penal, 2</em>, 1–15. https://revista.pensamiento.penal.com.ar/index.php/rpp/article/view/63</li>
-</ul>
+      <li>Cairo, A. (2020). <em>How charts lie: Getting smarter about visual information</em>. W. W. Norton & Company.</li>
+      <li>D'Ignazio, C., & Klein, L. F. (2020). <em>Data feminism</em>. The MIT Press.</li>
+      <li>Haraway, D. (1988). Situated knowledges: The science question in feminism and the privilege of partial perspective. <em>Feminist Studies, 14</em>(3), 575–599.</li>
+      <li>Lupi, G., & Cox, P. (2024). <em>Speak data: Artists, scientists, thinkers, and dreamers on how we live our lives in numbers</em>. Princeton Architectural Press.</li>
+      <li>Peters, M. A., Jandrić, P., & Green, B. J. (2024). The DIKW model in the age of artificial intelligence. <em>Educational Philosophy and Theory, 56</em>(4), 321–335. https://doi.org/10.1080/00131857.2024.2304578</li>
+      <li>Tufte, E. R. (2020). <em>Seeing with fresh eyes: Meaning, space, data, truth</em>. Graphics Press.</li>
+      <li>Yorlano, E. F. (2025). El círculo vicioso de la inteligencia artificial generativa. <em>Revista Pensamiento Penal, 2</em>, 1–15. https://revista.pensamiento.penal.com.ar/index.php/rpp/article/view/63</li>
+    </ul>
   </section>
 
   <!-- ── DECLARACIONES ───────────────────────────────────────── -->
@@ -653,7 +608,7 @@
 
     <div class="correspondence">
       <strong>Correspondencia</strong>
-      Angelina Caviedes · Departamento de Diseño e Información, Universidad de Chile, Santiago, Chile · <a href="mailto:angelina.caviedes@ug.uchile.cl">angelina.caviedes@ug.uchile.cl</a>
+      Fernanda Valenzuela · Departamento de Diseño e Información, Universidad de Chile, Santiago, Chile · <a href="mailto:fernanda.valenzuela@ug.uchile.cl">fernanda.valenzuela@ug.uchile.cl</a>
     </div>
 
     <div class="disclosure" style="margin-top:1.5rem;">
@@ -666,7 +621,7 @@
 <!-- FOOTER -->
 <footer>
   <div class="container">
-    <p>La Teoría del Internet Muerto de Caviedes et al. es publicado bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+    <p>La teoría del Internet Muerto de Valenzuela et al. es publicado bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
   </div>
 </footer>
 
@@ -680,7 +635,6 @@
     const W = canvas.width;
     const H = canvas.height;
 
-    // Datos: años y porcentajes de contenido (humano vs sintético)
     const años = ['2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026'];
     const humano = [95, 90, 85, 78, 70, 60, 48, 35, 25];
     const sintetico = [5, 10, 15, 22, 30, 40, 52, 65, 75];
@@ -688,7 +642,6 @@
     const margin = { top: 40, right: 30, bottom: 50, left: 60 };
     const innerW = W - margin.left - margin.right;
     const innerH = H - margin.top - margin.bottom;
-
     const maxValor = 100;
 
     function getY(v) {
@@ -699,7 +652,6 @@
       return margin.left + (i / (años.length - 1)) * innerW;
     }
 
-    // Limpiar y fondo
     ctx.clearRect(0, 0, W, H);
     ctx.fillStyle = '#ffffff';
     ctx.fillRect(0, 0, W, H);
@@ -748,7 +700,7 @@
     ctx.fillText('Porcentaje del contenido total', 0, 0);
     ctx.restore();
 
-    // Línea: contenido humano (azul)
+    // Línea: contenido humano
     ctx.beginPath();
     ctx.strokeStyle = '#1e4a7a';
     ctx.lineWidth = 3;
@@ -760,7 +712,6 @@
     }
     ctx.stroke();
 
-    // Puntos humanos
     for (let i = 0; i < humano.length; i++) {
       const x = getX(i);
       const y = getY(humano[i]);
@@ -773,7 +724,7 @@
       ctx.stroke();
     }
 
-    // Línea: contenido sintético (rojo)
+    // Línea: contenido sintético
     ctx.beginPath();
     ctx.strokeStyle = '#d32f2f';
     ctx.lineWidth = 3;
@@ -785,7 +736,6 @@
     }
     ctx.stroke();
 
-    // Puntos sintéticos
     for (let i = 0; i < sintetico.length; i++) {
       const x = getX(i);
       const y = getY(sintetico[i]);
@@ -815,7 +765,6 @@
     ctx.fillStyle = '#1a1a1a';
     ctx.fillText('Contenido sintético (IA/bots)', leyX + 20, leyY + 33);
 
-    // Nota
     ctx.fillStyle = '#888';
     ctx.font = '9px Helvetica, Arial, sans-serif';
     ctx.textAlign = 'left';
