@@ -260,6 +260,10 @@
       margin: 2rem 0;
       text-align: center;
     }
+    figure img {
+      width: 100%;
+      border-radius: 4px;
+    }
     figcaption {
       font-size: 0.82rem;
       color: var(--ink-faint);
@@ -453,14 +457,19 @@
       <p class="authors-label">Palabras clave</p>
       <div class="keywords">
         <span class="keyword">Internet Muerto</span>
+        <span class="keyword">Inteligencia Artificial Generativa</span>
         <span class="keyword">Sesgo Algorítmico</span>
+        <span class="keyword">Visualización de Datos</span>
         <span class="keyword">Data Humanism</span>
-        <span class="keyword">Desinformación</span>
-        <span class="keyword">DIKW</span>
-        <span class="keyword">Chartjunk</span>
       </div>
     </div>
   </section>
+
+  <!-- ── FIGURA 1 (Portada ilustrativa) ──────────────────────── -->
+  <figure>
+    <img src="muerto.jpeg" alt="Portada ilustrativa de la Dead Internet Theory" style="width:100%;border-radius:4px;" />
+    <figcaption><strong>Figura 1.</strong> Portada ilustrativa de la Dead Internet Theory, representada mediante dos manos que intentan conectarse en un entorno digitalizado y difuso.</figcaption>
+  </figure>
 
   <!-- ── INTRODUCCIÓN ────────────────────────────────────────── -->
   <section id="introduccion">
@@ -475,6 +484,12 @@
       <p>Para abordar este fenómeno, el artículo se estructura en cinco secciones. Primero, se presenta el marco teórico, que articula el modelo DIKW, el concepto de endogamia algorítmica de Yorlano, la crítica al chartjunk de Tufte y Cairo, y el Data Humanism de Lupi y Cox. Luego, se describen los métodos cualitativos empleados para el análisis. Posteriormente, se exponen los resultados, que incluyen una tabla comparativa y una visualización de datos. Finalmente, se discuten las implicaciones de estos hallazgos y se proponen líneas de acción para contrarrestar la deriva deshumanizante del ecosistema digital.</p>
     </div>
   </section>
+
+  <!-- ── FIGURA 2 (Representación ilustrativa) ──────────────── -->
+  <figure>
+    <img src="internet_muerto.jpeg" alt="Representación ilustrativa de la Dead Internet Theory" style="width:100%;border-radius:4px;" />
+    <figcaption><strong>Figura 2.</strong> Representación ilustrativa de la Dead Internet Theory, donde una computadora conectada a múltiples cables simboliza la automatización, la saturación tecnológica y la creciente artificialización del entorno digital.</figcaption>
+  </figure>
 
   <!-- ── MARCO TEÓRICO ───────────────────────────────────────── -->
   <section id="marco-teorico">
@@ -526,51 +541,21 @@
 
       <p>En el plano visual, se identificó una proliferación sistemática de chartjunk y desinformación gráfica. La automatización genera cuadros de mando y gráficos carentes de contexto que explotan los sesgos cognitivos expuestos por Cairo (2020), sacrificando la verdad por el efectismo técnico.</p>
 
-      <!-- TABLA COMPARATIVA -->
-      <div class="table-wrapper">
-        <table>
-          <thead>
-            <tr>
-              <th>Dimensión</th>
-              <th>Ecosistema de Internet Vivo</th>
-              <th>Ecosistema de Internet Muerto</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>Producción</strong></td>
-              <td>Creación humana, orgánica y descentralizada.</td>
-              <td>Generación sintética masiva por IA y bots.</td>
-            </tr>
-            <tr>
-              <td><strong>Modelo DIKW</strong></td>
-              <td>Tránsito progresivo de Datos a Sabiduría reflexiva.</td>
-              <td>Colapso en la simulación de información sin juicio.</td>
-            </tr>
-            <tr>
-              <td><strong>Sesgo y Algoritmo</strong></td>
-              <td>Diversidad de voces con sesgos explícitos.</td>
-              <td>Bucle autorreferencial; amplificación de sesgos.</td>
-            </tr>
-            <tr>
-              <td><strong>Visualización</strong></td>
-              <td>Humanismo de Datos (Lupi &amp; Cox); claridad (Tufte).</td>
-              <td>Saturación, chartjunk y manipulación (Cairo).</td>
-            </tr>
-          </tbody>
-        </table>
-        <p class="table-caption"><strong>Tabla 1.</strong> Comparación entre las dinámicas de un Internet vivo y un Internet muerto según las dimensiones analizadas.</p>
-      </div>
-
-      <!-- VISUALIZACIÓN CON CANVAS -->
+      <!-- FIGURA 3 (Canvas) -->
       <figure>
         <canvas id="graficoInternetMuerto" width="800" height="400" style="width:100%; height:auto; border:1px solid var(--rule); border-radius:4px; background: #fff;"></canvas>
-        <figcaption>
-          <strong>Figura 1.</strong> Evolución del contenido en Internet: humano vs. sintético (2018–2026). Los datos son ilustrativos y se basan en tendencias documentadas por el Stanford Internet Observatory. La gráfica muestra el declive progresivo de la agencia humana frente a la automatización masiva.
-        </figcaption>
+        <figcaption><strong>Figura 3.</strong> Evolución del contenido en Internet: humano vs. sintético (2018–2026). Los datos son ilustrativos y se basan en tendencias documentadas por el Stanford Internet Observatory. La gráfica muestra el declive progresivo de la agencia humana frente a la automatización masiva.</figcaption>
       </figure>
 
-      <p>Para complementar el análisis cualitativo, se desarrolló una visualización que representa la evolución del contenido humano frente al sintético en la última década (Figura 1). Esta gráfica, implementada con tecnología Canvas, no solo muestra la tendencia decreciente de la agencia humana, sino que también evidencia cómo la automatización ha pasado de ser un actor marginal a dominar el ecosistema digital en menos de diez años. La elección de una escala lineal y la inclusión de todo el período histórico responden a los principios de transparencia visual propuestos por Tufte (2020) y Cairo (2020).</p>
+      <!-- FIGURA 4 (Tabla) -->
+      <figure>
+        <img src="tabla.png" alt="Comparativa Internet Vivo vs Internet Muerto" style="width:100%;border-radius:4px;" />
+        <figcaption><strong>Figura 4.</strong> Comparación entre las características de un ecosistema de internet vivo y un ecosistema de internet muerto a través de cuatro dimensiones: producción, modelo DIKW, sesgo y algoritmo, y visualización.</figcaption>
+      </figure>
+
+      <p>Para complementar el análisis cualitativo, se desarrolló una visualización que representa la evolución del contenido humano frente al sintético en la última década (Figura 3). Esta gráfica, implementada con tecnología Canvas, no solo muestra la tendencia decreciente de la agencia humana, sino que también evidencia cómo la automatización ha pasado de ser un actor marginal a dominar el ecosistema digital en menos de diez años. La elección de una escala lineal y la inclusión de todo el período histórico responden a los principios de transparencia visual propuestos por Tufte (2020) y Cairo (2020).</p>
+
+      <p>La tabla comparativa (Figura 4) sintetiza las diferencias fundamentales entre un ecosistema digital vivo y uno muerto, evidenciando cómo la automatización masiva transforma cada dimensión del ciclo informativo: desde la producción hasta la visualización de datos.</p>
     </div>
   </section>
 
@@ -608,7 +593,7 @@
 
     <div class="correspondence">
       <strong>Correspondencia</strong>
-      Fernanda Valenzuela · Departamento de Diseño e Información, Universidad de Chile, Santiago, Chile · <a href="mailto:fernanda.valenzuela@ug.uchile.cl">fernanda.valenzuela@ug.uchile.cl</a>
+      Martina Casas · Departamento de Diseño e Información, Universidad de Chile, Santiago, Chile · <a href="mailto:martina.casas@ug.uchile.cl">martina.casas@ug.uchile.cl</a>
     </div>
 
     <div class="disclosure" style="margin-top:1.5rem;">
